@@ -1,3 +1,5 @@
+WRITTEN WITH [STEFAN DORUNGA](https://github.com/sdorunga1)
+
 Implement a system for a contactless travel card for the London underground.
 
 * The card does not need to be topped up.
