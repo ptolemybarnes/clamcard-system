@@ -16,6 +16,10 @@ class Journey
     zone_2_list.include?(from) || zone_2_list.include?(to)
   end
 
+  def self.make(from:, to:, card:)
+    new(from: from, to: to, card: card).travel
+  end
+
   private
 
   attr_reader :card, :from, :to, :zone_2_list

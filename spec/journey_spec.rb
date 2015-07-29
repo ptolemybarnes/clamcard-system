@@ -28,4 +28,9 @@ describe Journey do
     expect(clamcard).to have_received(:enter_zone_2)
   end
 
+  it 'provides some syntactical sugar' do
+    journey = Journey.make(from: :asterisk, to: :aldgate, card: clamcard)
+    # can't write test for this
+  end
+
 end
