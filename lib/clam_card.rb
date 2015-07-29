@@ -4,7 +4,7 @@ class ClamCard
   end
 
   def charge(value)
-    @bank_account.charge(value)
+    bank_account.charge(value)
   end
 
   private
