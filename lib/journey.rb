@@ -1,4 +1,5 @@
 class Journey
+
   def initialize(from:, to:, card:)
     @from = from
     @to   = to
@@ -16,7 +17,7 @@ class Journey
     zone_2_list.include?(from) || zone_2_list.include?(to)
   end
 
-  def self.make(from:, to:, card:)
+  def self.travel(from:, to:, card:)
     new(from: from, to: to, card: card).travel
   end
 
