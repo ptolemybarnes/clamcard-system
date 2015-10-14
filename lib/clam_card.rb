@@ -11,6 +11,7 @@ class ClamCard
   def charge(value)
     bank_account.charge(calculated_value(value))
     @charges_ledger << value
+    self
   end
 
   def enter_zone_2
